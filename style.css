@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 237, 214);
+}
+
+#fixheader {
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+#fakeheader {
+    height: 15%;
+    background-color: rgb(255, 237, 214);
+    width: 100%;
+    color: orangered;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page1 {
+    height: 85%;
+    width: 100%;
+}
+
+#header1 {
+    color: orangered;
+    text-align: center;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header2 {
+    text-align: center;
+    background-color: yellow;
+    padding: 0.43%;
+    font-size: 1vmax;
+}
+
+#header {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#options {
+
+    margin: 0%;
+    padding: 4px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+#search {
+    display: flex;
+    margin: 0%;
+    padding: 4px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#band2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 237, 214);
+    padding: 0%;
+    height: 54.7%;
+    width: 100%;
+}
+
+#tx1 {
+    color: rgb(7, 7, 104);
+}
+
+#veg {
+    size: 20px;
+    margin: 5%;
+}
+
+#nonveg {
+    size: 20px;
+    margin: 5%;
+}
+
+#text1 {
+    background-color: rgb(240, 240, 253);
+    font-size: medium;
+    font-weight: 100;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+#text2 {
+    font-family: serif;
+    font-weight: lighter;
+    width: 100%;
+}
+
+#hd1,
+#hd2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 197, 88);
+    font-size: larger;
+}
+
+#page2 {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(197, 194, 194);
+}
+
+#contact {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 0.7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details {
+    text-align: center;
+    text-align: center;
+    padding: 0.7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#moredetails {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.7vh;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#social1 {
+    margin-right: 5%;
+}
+
+#social2 {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#social3 {
+    margin-left: 5%;
+}
+
+#image1,
+#image2 {
+    width: 100%;
+
+
+}
+
+#image1:hover {
+    opacity: 0.9;
+    background-color: black;
+    transform: scale(1.05);
+}
+
+#image2:hover {
+    opacity: 0.9;
+    background-color: black;
+    transform: scale(1.05);
+}
+
+#tophead {
+    font-size: 3vmax;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bn1,
+#bn2,
+#bn3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 237, 214);
+    padding: 20px;
+    width: 100vw;
+}
